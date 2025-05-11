@@ -1,0 +1,30 @@
+{% extends 'app_1/base.html' %}
+{% load static %}
+
+{% block content %}
+<div class="order-history-container">
+  {% for order in orders %}
+    <div class="order-card">
+      <p class="order-status">Status: {{ order.status | capfirst }}</p>
+      <p class="order-date">Ordered on: {{ order.order_date }}</p>
+      <p class="order-payment">Payment Method: {{order.payment_method}}</p>
+      <ul class="order-items">
+        {% for item in order.order_items.all %}
+          <li class="order-item cart-redirect"><a href="{% url 'product_detail' item.product.id %}" class="prod-link">
+            <img src="{% static item.product.image_url %}" alt="{{ item.product.name }}" style="height: 60px; vertical-align: middle; margin-right: 10px;">
+            {{ item.product.name }} {{item.product.category}}
+          </a> - {{ item.quantity }} x ₹{{ item.product.price }}</li>
+        {% endfor %}
+      </ul>
+
+      {% if order.status == 'Confirmed' or order.status == 'Shipped' %}
+        <a href="{% url 'cancel_order' order.id %}" class="order-btn">Cancel Order</a>
+      {% elif order.status == 'Delivered' %}
+        <a href="{% url 'return_order' order.id %}" class="order-btn">Return Order</a>
+      {% endif %}
+    </div>
+  {% empty %}
+    <p class="no-orders">No orders found.</p>
+  {% endfor %}
+</div>
+{% endblock %}

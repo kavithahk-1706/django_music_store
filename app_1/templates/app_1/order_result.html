@@ -1,0 +1,28 @@
+{% extends 'app_1/base.html' %}
+{% load static %}
+{% block content %}
+<link rel="stylesheet" href="{% static 'app_1/css/order_result.css' %}">
+<div class="checkout-loading-screen">
+    <p class="checkout-loading-text">Processing your payment... please wait.</p>
+</div>
+<div class="checkout-result-screen" style="display:none;">
+    {% if result == 'success' %}
+        <h2 class="checkout-status">🎉 Order Successful!</h2>
+        <p class="checkout-message">Thanks for shopping with us!</p>
+    {% else %}
+        <h2 class="checkout-status">Payment Failed</h2>
+        <p class="checkout-message">{{ reason }}</p>
+        <a href="{%url 'view_cart'%}" class="checkout-btn">Back to Cart</a>
+    {% endif %}
+    <a href="{% url 'home' %}" class="checkout-btn">Back to Home</a>
+    <a href="{% url 'products' %}" class="checkout-btn">Continue Shopping</a>
+    <a href="{% url 'order_history' %}" class="checkout-btn">View Order History</a>
+</div>
+
+<script>
+    setTimeout(() => {
+        document.querySelector(".checkout-loading-screen").style.display = "none";
+        document.querySelector(".checkout-result-screen").style.display = "block";
+    }, 3000);
+</script>
+{% endblock %}

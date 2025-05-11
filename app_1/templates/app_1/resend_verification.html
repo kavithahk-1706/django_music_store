@@ -1,0 +1,33 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resend Verification Email</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{% static 'reg_styles.css' %}">
+</head>
+<body>
+    {% if messages %}
+    <div class="message-container">
+{% for message in messages %}
+    <div class="message {{ message.tags }}">{{ message }}</div>
+{% endfor %}
+    </div>
+{% endif %}
+  <div class="register-container">
+    <h2>Resend Verification Email</h2>
+    <form method="POST">
+      {% csrf_token %}
+      <div class="form-group">
+        <label for="email">Enter your email address</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <button type="submit" class="register-btn">Resend Email</button>
+    </form>
+
+  </div>
+
+</body>
+</html>

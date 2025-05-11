@@ -1,0 +1,137 @@
+{% extends 'app_1/base.html' %}
+{%load static%}
+
+{% block content %}
+<div class="checkout-wrapper">
+    <h1>Checkout</h1>
+
+    <form method="POST">
+        {% csrf_token %}
+
+        <!-- Shipping Address -->
+        <div class="form-group">
+            <label for="address">Shipping Address</label>
+            <input type="text" name="address" id="address" value="{{ request.user.address }}" placeholder="Enter your address" required>
+        </div>
+
+        <!-- Cart Items -->
+        <div class="cart-items">
+            <h3>Your Cart</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Product</th>
+                        <th>Price</th>
+                        <th>Quantity</th>
+                        <th>Subtotal</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for item in items %}
+                        <tr>
+                            <td class="cart-redirect">
+                                <a href="{% url 'product_detail' item.product.id %}" class="prod-link">
+                                  <img src="{% static item.product.image_url %}" alt="{{ item.product.name }}" style="height: 60px; vertical-align: middle; margin-right: 10px;">
+                                  {{ item.product.name }} {{item.product.category}}
+                                </a>
+                              </td>
+                            <td>₹{{ item.product.price }}</td>
+                            <td>{{ item.quantity }}</td>
+                            <td>₹{{ item.subtotal }}</td>
+                        </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+            <hr>
+            <div class="total">
+                <h4>Total: ₹{{ total_price }}</h4>
+            </div>
+        </div>
+
+        <!-- Payment Method Selection -->
+        <div class="payment-method">
+            <label><b>Choose Payment Method:</b></label>
+            <div>
+                <input type="radio" name="payment_method" value="COD" id="cod" checked onchange="toggleCardFields()">
+                <label for="cod">Cash on Delivery</label>
+            </div>
+            <div>
+                <input type="radio" name="payment_method" value="Online" id="online" onchange="toggleCardFields()">
+                <label for="online">Online Payment (Card)</label>
+            </div>
+        </div>
+        
+        <!-- 👇 Card Input Fields (Hidden by default) -->
+        <div class="card-details" id="cardFields" style="display: none;">
+            <div class="form-group">
+                <label for="card_number">Card Number</label>
+                <input type="text" id="card_number" name="card_number" placeholder="1234 5678 9012 3456" maxlength="16" pattern="\d{16}" title="Enter a 16-digit card number">
+            </div>
+            <div class="form-group">
+                <label for="expiry">Expiry Date</label><input type="month" id="expiry" name="expiry" placeholder="MM/YY" title="Enter a valid expiry date">
+
+            </div>
+            <div class="form-group">
+                <label for="cvv">CVV</label>
+                <input type="password" id="cvv" name="cvv" placeholder="123" maxlength="3" pattern="\d{3}" title="Enter a 3-digit CVV">
+            </div>
+        </div>
+            <button type="submit" class="checkout-btn">Place Order</button>        
+    </form>
+    <hr>
+    <div class="cart-redirect">
+        <a href="{% url 'view_cart' %}" class="checkout-btn" style="color:#fff;text-decoration:none">Back to Cart</a>
+    </div>
+</div>
+<script>
+    function toggleCardFields() {
+        const online = document.getElementById("online").checked;
+        const cardFields = document.getElementById("cardFields");
+
+        const cardNumber = document.getElementById("card_number");
+        const expiry = document.getElementById("expiry");
+        const cvv = document.getElementById("cvv");
+
+        cardFields.style.display = online ? "block" : "none";
+        cardNumber.required = online;
+        expiry.required = online;
+        cvv.required = online;
+    }
+
+    window.onload = function () {
+        toggleCardFields();
+
+        const form = document.querySelector("form"); // or give your form an ID and use that
+        form.addEventListener("submit", function (e) {
+            const online = document.getElementById("online").checked;
+            if (!online) return; // skip validation if COD
+
+            const cardNumber = document.getElementById("card_number").value.trim();
+            const expiry = document.getElementById("expiry").value;
+            const cvv = document.getElementById("cvv").value.trim();
+
+            if (!/^\d{16}$/.test(cardNumber)) {
+                alert("Enter a valid 16-digit card number.");
+                e.preventDefault();
+                return;
+            }
+
+            if (!/^\d{3}$/.test(cvv)) {
+                alert("Enter a valid 3-digit CVV.");
+                e.preventDefault();
+                return;
+            }
+
+            const currentDate = new Date();
+            const selectedDate = new Date(expiry + "-01");
+            selectedDate.setMonth(selectedDate.getMonth() + 1); // end of month
+            if (selectedDate <= currentDate) {
+                alert("Card expiry must be in the future.");
+                e.preventDefault();
+                return;
+            }
+        });
+    };
+</script>
+
+{% endblock %}

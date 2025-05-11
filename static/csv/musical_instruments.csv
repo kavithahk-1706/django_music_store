@@ -1,0 +1,37 @@
+sno,name,category,price,image_url,,description,stock
+1,Tama Imperialstar,Acoustic Drum Kit,37000,products/ads1.jpeg,,"A premium acoustic drum kit with high-quality shells, responsive cymbals, and deep resonance for powerful performances.",20
+2,Pearl Roadshow,Acoustic Drum Kit,23000,products/ads2.jpeg,,"A premium acoustic drum kit with high-quality shells, responsive cymbals, and deep resonance for powerful performances.",30
+3,DW Collector Series,Acoustic Drum Kit,58000,products/ads3.jpeg,,"A premium acoustic drum kit with high-quality shells, responsive cymbals, and deep resonance for powerful performances.",15
+4,Yamaha FG800,Acoustic Guitar,2500,products/ag1.jpg,,"A beautifully crafted acoustic guitar with warm resonance and premium build quality, ideal for both solo performances and studio recordings.",25
+5,Taylor 214ce,Acoustic Guitar,10000,products/ag2.jpg,,"A beautifully crafted acoustic guitar with warm resonance and premium build quality, ideal for both solo performances and studio recordings.",35
+6,Martin D-28,Acoustic Guitar,23000,products/ag3.jpeg,,"A beautifully crafted acoustic guitar with warm resonance and premium build quality, ideal for both solo performances and studio recordings.",20
+7,Korg Minilogue,Analog Synthesizer,16000,products/as1.jpeg,,"A premium analog synthesizer delivering warm, vintage tones with hands-on modulation and extensive patching capabilities.",15
+8,Moog Sub 37,Analog Synthesizer,25999,products/as2.jpeg,,"A premium analog synthesizer delivering warm, vintage tones with hands-on modulation and extensive patching capabilities.",14
+9,Behringer DeepMind 12,Analog Synthesizer,34500,products/as3.jpeg,,"A premium analog synthesizer delivering warm, vintage tones with hands-on modulation and extensive patching capabilities.",10
+10,Focusrite Scarlett 2i2,Audio Interface,7899,products/ai1.jpeg,,"A high-quality audio interface with multiple inputs and outputs, ensuring seamless recording and playback with zero latency.",15
+11,Fender Jazz Bass,Bass Guitar,13000,products/bg1.jpg,,"A solid bass guitar offering deep, punchy tones with excellent sustain, suitable for all music genres.",15
+12,Gibson Thunderbird,Bass Guitar,1700,products/bg2.jpg,,"A solid bass guitar offering deep, punchy tones with excellent sustain, suitable for all music genres.",9
+13,Shure SM58,Condenser Microphone,3499,products/cm1.jpg,,"A professional-grade microphone designed for crystal-clear vocals and instrument recording, suitable for studio and live settings.",13
+14,Rode NT1-A,Condenser Microphone,23499,products/cm2.jpeg,,"A professional-grade microphone designed for crystal-clear vocals and instrument recording, suitable for studio and live settings.",10
+15,Audio-Technica AT2020,Condenser Microphone,7999,products/cm3.jpeg,,"A professional-grade microphone designed for crystal-clear vocals and instrument recording, suitable for studio and live settings.",23
+16,Neumann TLM 102,Digital Piano,10000,products/dp1.jpeg,,"A realistic digital piano featuring weighted keys, multiple sound modes, and advanced connectivity for professional and home use.",35
+17,Yamaha P125,Digital Piano,24599,products/dp2.jpeg,,"A realistic digital piano featuring weighted keys, multiple sound modes, and advanced connectivity for professional and home use.",20
+18,Casio PX-770,Digital Piano,32999,products/dp3.jpeg,,"A realistic digital piano featuring weighted keys, multiple sound modes, and advanced connectivity for professional and home use.",25
+19,Alesis Recital Pro,Electric Guitar,16000,products/eg1.jpeg,,"A high-performance electric guitar designed for versatility, delivering rich tones and smooth playability. Perfect for beginners and professionals alike.",15
+20,Fender Stratocaster,Electric Guitar,22300,products/eg2.webp,,"A high-performance electric guitar designed for versatility, delivering rich tones and smooth playability. Perfect for beginners and professionals alike.",10
+21,Gibson Les Paul,Electric Guitar,32499,products/eg3.webp,,"A high-performance electric guitar designed for versatility, delivering rich tones and smooth playability. Perfect for beginners and professionals alike.",20
+22,Epiphone SG Standard,Electronic Drum Kit,4000,products/eds1.jpeg,,"A fully-featured electronic drum kit with responsive pads, realistic sound, and customizable settings for live and studio use.",12
+23,Roland TD-17KV,Electronic Drum Kit,13400,products/eds2.jpeg,,"A fully-featured electronic drum kit with responsive pads, realistic sound, and customizable settings for live and studio use.",10
+24,Yamaha DTX6K-X,Electronic Drum Kit,24999,products/eds3.jpg,,"A fully-featured electronic drum kit with responsive pads, realistic sound, and customizable settings for live and studio use.",9
+25,Alesis Nitro Mesh,Guitar Amp,7500,products/ga1.jpeg,,"A powerful guitar amplifier delivering rich tones, adjustable gain, and built-in effects for stage and studio use.",11
+26,Fender Hot Rod Deluxe,Guitar Amp,13899,products/ga2.jpeg,,"A powerful guitar amplifier delivering rich tones, adjustable gain, and built-in effects for stage and studio use.",23
+27,Marshall DSL40CR,Guitar Amp,5999,products/ga3.jpeg,,"A powerful guitar amplifier delivering rich tones, adjustable gain, and built-in effects for stage and studio use.",16
+28,Roland KC-600,Keyboard Synthesizer,7899,products/ks1.jpeg,,"A powerful synthesizer featuring a wide range of sounds, modulation controls, and real-time effects for music production.",25
+29,Korg Kronos,Keyboard Synthesizer,10299,products/ks2.jpeg,,"A powerful synthesizer featuring a wide range of sounds, modulation controls, and real-time effects for music production.",30
+30,Yamaha Montage 8,Keyboard Synthesizer,13000,products/ks3.jpeg,,"A powerful synthesizer featuring a wide range of sounds, modulation controls, and real-time effects for music production.",20
+31,Nord Stage 3,Loop Station,22499,products/ls1.jpeg,,"A compact loop station with multiple track layers, intuitive controls, and real-time effects for live looping and creative performances.",15
+32,Boss RC-505,MIDI Keyboard,8299,products/mk1.jpeg,,A compact and functional MIDI keyboard with velocity-sensitive keys and extensive DAW compatibility for seamless music production.,20
+33,M-Audio Oxygen 49,MIDI Keyboard,12990,products/mk2.jpeg,,A compact and functional MIDI keyboard with velocity-sensitive keys and extensive DAW compatibility for seamless music production.,19
+34,Novation Launchkey 61,MIDI Keyboard,21900,products/mk3.jpeg,,A compact and functional MIDI keyboard with velocity-sensitive keys and extensive DAW compatibility for seamless music production.,20
+35,JBL EON615,Studio Monitor,12300,products/sm1.jpeg,,"Precision-engineered studio monitors delivering accurate sound reproduction, ideal for mixing and mastering.",15
+36,Yamaha HS5,Studio Monitor,17999,products/sm2.jpeg,,"Precision-engineered studio monitors delivering accurate sound reproduction, ideal for mixing and mastering.",14

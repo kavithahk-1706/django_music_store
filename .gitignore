@@ -1,0 +1,19 @@
+# Ignore .env file for sensitive information
+.env
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+
+# Ignore environment folder and its contents
+/env/
+
+# Ignore SQL files
+*.sql
+*.mysql
+db/
+
+# Ignore log, pot, and db files
+*.log
+*.pot
+*.db

@@ -1,0 +1,95 @@
+sno,name,category,price,image_url,description,stock
+1,Akai MPK Mini MK3,MIDI Keyboard,14500,products/mk5.jpeg,"Compact, expressive, and great for producers on the move.",21
+2,AKG C214,Condenser Microphone,31000,products/cm4.jpeg,Detailed warm sound ideal for vocals and acoustic instruments.,20
+3,Alesis V49,MIDI Keyboard,16500,products/mk4.jpeg,A full-sized MIDI keyboard controller with pads and knobs.,17
+4,Arturia MatrixBrute,Analog Synthesizer,155000,products/as5.jpeg,A beastly analog synth with massive patching potential.,8
+5,Arturia MiniLab 3,MIDI Keyboard,12500,products/mk2.jpeg,An expressive MIDI controller with great DAW integration.,22
+6,Audio-Technica AT2020,Condenser Microphone,9500,products/cm1.jpg,A sensitive microphone ideal for vocals and instruments.,30
+7,Behringer Neutron,Analog Synthesizer,32000,products/as2.jpeg,A classic analog synth with fat tones and hands-on control.,20
+8,Bharat Musicals Pro Concert Sitar,Sitar,24000,products/st6.jpeg,Concert-grade instrument with seasoned toomba and khunti.,9
+9,Bhargava Tabla Studio Set,Tabla,13200,products/tb5.jpeg,Premium tabla with heavy copper bayan and clean dayan.,14
+10,Blackstar ID:Core 10,Guitar Amp,8500,products/ga4.jpeg,Affordable stereo combo amp with built-in effects.,19
+11,Blue Yeti Pro,Condenser Microphone,24000,products/cm5.jpeg,USB/XLR hybrid mic with high-resolution recording quality.,18
+12,Boss RC-1,Loop Station,11000,products/ls1.jpeg,A simple yet powerful looping pedal for performance.,12
+13,Bugera V5 Infinium,Guitar Amp,15500,products/ga5.jpeg,Tube-driven amp with vintage warmth in a compact frame.,14
+14,Carlsbro CSD130,Electronic Drum Kit,29000,products/eds5.jpeg,Lightweight and portable kit ideal for beginners.,27
+15,Casio CDP-S150,Digital Piano,32000,products/dp2.jpeg,A versatile digital piano with realistic touch and tone.,25
+16,Cecilio CVN-500 Violin Set,Violin,14500,products/v6.jpeg,Balanced tone and great for intermediate players.,25
+17,Chennai Mridangam Student Model,Mridangam,11500,products/mdg3.jpeg,Lightweight and tuned for easy practice.,16
+18,Cort X100,Electric Guitar,18000,products/eg7.jpeg,High-speed neck and aggressive pickups for metal and shred.,18
+19,Cremona SV-130 Premier,Violin,13500,products/v4.jpeg,Complete kit with bow and case  great for learners.,12
+20,Dayan & Bayan Deluxe Tabla,Tabla,11800,products/tb3.jpeg,A trusted name in tabla craftsmanship with great sustain.,18
+21,Dev Bansuri Transverse C Sharp,Flute,1800,products/ft5.webp,Entry-level bansuri with easy fingering and sound.,11
+22,Donner DEP-20,Digital Piano,29500,products/dp6.jpeg,A budget digital piano with impressive sound variety.,25
+23,DW Collector Series,Acoustic Drum Kit,58000,products/ads3.jpeg,A premium acoustic drum kit with high-quality components for studio and stage.,15
+24,Elektron Analog Four,Analog Synthesizer,125000,products/as6.jpeg,Powerful analog architecture with sequencer-driven sound design.,11
+25,ESP LTD EC-10,Electric Guitar,21000,products/eg5.jpeg,Entry-level rock machine with aggressive tone.,24
+26,Fender CD-60S #788,Acoustic Guitar,7200,products/ag6.jpeg,Perfect for beginners and pros alike with its smooth action.,23
+27,Fender FA-125,Acoustic Guitar,7500,products/ag3.jpeg,A beautifully crafted acoustic guitar with warm rich tones.,18
+28,Fender Mustang LT25,Guitar Amp,11000,products/ga2.jpeg,A powerful amp for practice or small gigs.,20
+29,Fender Player Stratocaster,Electric Guitar,60000,products/eg2.webp,A sleek electric guitar perfect for rock and metal tones.,18
+30,Fiddlerman Artist Violin,Violin,17500,products/v5.jpeg,Solid construction and ebony fittings for clean tone.,20
+31,Focusrite Scarlett 2i2,Audio Interface,21000,products/ai1.jpeg,A compact and reliable audio interface for all setups.,24
+32,Gibson Les Paul Studio,Electric Guitar,85000,products/eg4.jpeg,A sleek electric guitar perfect for rock and metal tones.,12
+33,Gretsch Catalina #823,Acoustic Drum Kit,35000,products/ads6.jpeg,This kit combines retro charm with modern playability and warm tones.,19
+34,Guild D-240E #613,Acoustic Guitar,8800,products/ag5.jpeg,A solid performer with rich lows and crystal-clear highs.,21
+35,Hamsapriya Wooden Veena,Veena,22500,products/vn5.jpeg,Handcrafted teakwood body and intricate detailing.,18
+36,Hari Prasad Signature Bansuri,Flute,3500,products/ft1.jpeg,Premium bamboo flute tuned to perfection in C scale.,21
+37,Haridas Sitar Student Model,Sitar,15000,products/st5.jpeg,Beginner-friendly sitar with solid tuning and resonance.,10
+38,Ibanez GRX70QA,Electric Guitar,13500,products/eg1.jpeg,A sleek electric guitar perfect for rock and metal tones.,30
+39,Ibanez SR300E,Bass Guitar,40000,products/bg1.jpg,A modern bass with deep tone and smooth playability.,14
+40,Kalalaya Deluxe Wooden Veena,Veena,33000,products/vn4.jpeg,Electric-acoustic veena perfect for stage fusion.,10
+41,Kawai ES110,Digital Piano,49000,products/dp4.png,Realistic key action and beautiful tone in a compact design.,19
+42,RPJ 24 Pro,Studio Monitor,29000,products/sm1.jpeg,Accurate and punchy monitors for mixing and production.,14
+43,Korg B2SP,Digital Piano,37000,products/dp5.jpeg,An elegant beginner-friendly digital piano with full-sized keys.,23
+44,Korg Kross 2,Keyboard Synthesizer,62000,products/ks1.jpeg,A versatile synth keyboard for stage and studio.,10
+45,Korg Monologue,Analog Synthesizer,27000,products/as3.jpeg,A classic analog synth with fat tones and hands-on control.,22
+46,KRK Rokit 5 G4,Studio Monitor,35000,products/sm2.jpeg,Accurate and punchy monitors for mixing and production.,6
+47,Ludwig Classic Maple #452,Acoustic Drum Kit,42000,products/ads4.jpeg,The Ludwig Classic Maple #452 delivers professional-grade tone and durability.,22
+48,Mapex Armory #391,Acoustic Drum Kit,39000,products/ads5.jpeg,The Mapex Armory #391 offers dynamic sound for all playing styles.,28
+49,Marshall MG15G, Guitar Amp,10500,products/ga1.jpeg,A powerful amp for practice or small gigs.,25
+50,Martin D-28 #542,Acoustic Guitar,9600,products/ag4.jpeg,"Known for its balanced tone and projection,  this guitar suits any genre.",26
+51,Mohan Lal Sharma Vilayat Khan Style,Sitar,26000,products/st4.jpeg,Modeled after the legendary Vilayat Khanna's specifications.,12
+52,Monoj Kumar Sardar Tabla,Tabla,9500,products/tb4.jpeg,Great for learners and home recording use.,18
+53,Moog Subsequent 37,Analog Synthesizer,150000,products/as1.jpeg,A classic analog synth with fat tones and hands-on control.,12
+54,Mumtaz Tabla Professional Set,Tabla,14500,products/tb2.jpeg,Leather-strapped tabla set with deep resonant bass.,20
+55,Nadabrahma Mridangam Tanjore Style,Mridangam,14500,products/mdg1.jpeg,Made with seasoned jackwood and traditional valan.,12
+56,Narendra Babu Sitar Custom Carved,Sitar,28500,products/st1.jpeg,Highly decorated sitar with custom inlays and pegs.,8
+57,Nektar Impact LX61+,MIDI Keyboard,19500,products/mk3.jpeg,An expressive MIDI controller with great DAW integration.,15
+58,Neumann TLM 103,Condenser Microphone,75000,products/cm3.jpeg,A sensitive microphone ideal for vocals and instruments.,10
+59,Novation Launchkey 49,MIDI Keyboard,22000,products/mk1.jpeg,An expressive MIDI controller with great DAW integration.,18
+60,NUX DM-7X,Electronic Drum Kit,52000,products/eds6.jpeg,Mesh heads and realistic feel for practice and play.,16
+61,Orange Crush 20RT,Guitar Amp,13500,products/ga3.jpeg,A powerful amp for practice or small gigs.,15
+62,Paloma Sitar Fusion Edition,Sitar,19500,products/st7.jpeg,Designed for fusion and contemporary performance.,18
+63,Pearl Roadshow,Acoustic Drum Kit,23000,products/ads2.jpeg,A premium acoustic drum kit with high-quality components for studio and stage.,30
+64,Pudukottai Mridangam Concert Model,Mridangam,16500,products/mdg2.jpeg,Concert-quality mridangam with strong bass.,9
+65,Punam Bansuri Professional,Flute,4200,products/ft2.jpeg,Handcrafted for concert use with deep mellow tone.,24
+66,Radha Krishna Sharma Sitar Deluxe,Sitar,22000,products/st3.jpeg,Deluxe sitar with rich tone and intricate carving.,19
+67,Ravi & Sons Mridangam Fiberskin,Mridangam,13200,products/mdg6.jpeg,Durable with synthetic skin and wooden body.,14
+68,Reed & Wind Fiber Bansuri,Flute,2800,products/ft4.jpeg,Durable fiber body for all-weather outdoor performance.,20
+69,Rikhi Ram Sitar Classic,Sitar,18000,products/st2.jpeg,Handcrafted sitar with traditional jawari and fine woodwork.,8
+70,Rode NT1-A,Condenser Microphone,18000,products/cm2.jpeg,A sensitive microphone ideal for vocals and instruments.,15
+71,Roland Fantom-06,Keyboard Synthesizer,120000,products/ks2.jpeg,A versatile synth keyboard for stage and studio.,12
+72,Roland FP-30X,Digital Piano,65000,products/dp3.jpeg,A versatile digital piano with realistic touch and tone.,18
+73,Roland TD-1DMK,Electronic Drum Kit,55000,products/eds2.jpeg,A compact electronic drum kit with responsive pads.,18
+74,Samson Carbon 61,MIDI Keyboard,18500,products/mk6.jpeg,Simple and affordable keyboard with plug-and-play connectivity.,15
+75,Shree Lalita Concert Veena,Veena,35000,products/vn1.jpeg,Flamed maple back and antique finish for stage appeal.,18
+76,Shure SM27,Condenser Microphone,28000,products/cm6.jpeg,A rugged condenser mic with a natural sound profile.,16
+77,Sri Ganapathy Mridangam Deluxe,Mridangam,15800,products/mdg4.jpeg,Premium finish with excellent tonal balance.,13
+78,Stentor Student II Violin 4/4,Violin,8700,products/v1.jpeg,Tuned in C# with excellent balance and clarity.,10
+79,Stradivari Replica Violin,Violin,15500,products/v2.jpeg,Ideal for beginners with good tone and playability.,15
+80,Subhash Bansuri Concert G Scale,Flute,3900,products/ft3.png,G-scale flute with rich tonal clarity and precise tuning.,15
+81,Subramaniam Student Veena,Veena,19000,products/vn2.jpeg,Concert-grade veena with rich acoustic projection.,20
+82,Swara Vani Electric Veena,Veena,41000,products/vn3.jpeg,Built for beginners with good sustain and balance.,12
+83,Tama Imperialstar,Acoustic Drum Kit,37000,products/ads1.jpeg,A premium acoustic drum kit with high-quality components for studio and stage.,20
+84,Tanjavur Mridangam Pro Classic,Mridangam,17500,products/mdg5.jpeg,Crafted in Tanjavur with traditional methods.,10
+85,Taylor 214ce,Acoustic Guitar,10000,products/ag2.jpg,A beautifully crafted acoustic guitar with warm rich tones.,35
+86,VOX VT20X,Guitar Amp,13800,products/ga6.jpeg,Modeling amp with tube sound and modern flexibility.,20
+87,Waldorf Blofeld,Analog Synthesizer,42000,products/as4.jpeg,A rich-sounding compact synth with deep modulation options.,17
+88,Yamaha DTX402K,Electronic Drum Kit,37000,products/eds1.jpeg,A compact electronic drum kit with responsive pads.,20
+89,Yamaha FG800,Acoustic Guitar,2500,products/ag1.jpg,A beautifully crafted acoustic guitar with warm rich tones.,25
+90,Yamaha HS7,Tabla,12500,products/tb1.jpeg,Balanced tone and handmade puddis for clear sound.,7
+91,Yamaha MX49,Keyboard Synthesizer,58000,products/ks3.jpeg,A versatile synth keyboard for stage and studio.,20
+92,Yamaha P-125,Digital Piano,45000,products/dp1.jpeg,A versatile digital piano with realistic touch and tone.,20
+93,Yamaha TRBX304,Bass Guitar,36000,products/bg2.jpg,A modern bass with deep tone and smooth playability.,17
+94,Yamaha V3SKA Violin Outfit,Violin,21000,products/v3.jpeg,Inspired by the Stradivarius design for warm tone.,10

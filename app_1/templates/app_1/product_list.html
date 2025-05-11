@@ -1,0 +1,39 @@
+{% extends 'app_1/base.html' %}
+{%load static%}
+{% block content %}
+<div class="container_page">
+  <h1 class="heading_page">Explore Our Musical Instruments</h1>
+  <div class="filter-sort_page">
+    <select id="categoryFilter" class="filter-dropdown_page">
+        <option value="all">All Categories</option>
+        {% for category in categories %}
+          <option value="{{ category|lower }}">{{ category }}</option>
+        {% endfor %}
+    </select>
+    <select id="sortSelect" class="sort-dropdown_page">
+        <option value="az">Sort A–Z</option>
+        <option value="za">Sort Z–A</option>
+        <option value="price-asc">Price: Low to High</option>
+        <option value="price-desc">Price: High to Low</option>
+    </select>
+  </div>
+  <div class="products-container_page" id="productContainer">
+    {% for product in products %}
+        <div class="product-card_page" data-category="{{ product.category | lower }}" data-price="{{ product.price }}">
+          {% if product.category in categories_with_banner %}
+          <div class="static-banner" style="position: absolute; top: 0; left: 0; z-index: 10;">
+              <div class="banner-text">
+                  <span>Made in India</span>
+              </div>
+          </div>
+      {% endif %}
+            <img src="{% static product.image_url %}" alt="{{ product.name }}" class="product-image_page">
+            <h2 class="product-name_page">{{ product.name }} {{ product.category }}</h2>
+            <p class="product-price_page">₹{{ product.price }}</p>
+            <a class="product-btn_page" href="{% url 'product_detail' product.id %}">View Product</a>
+        </div>
+    {% endfor %}
+</div>
+  <p id="noResults" style="display: none; text-align: center; margin-top: 2rem; color:#fff">No results found. Try again.</p>
+</div>
+{% endblock %}

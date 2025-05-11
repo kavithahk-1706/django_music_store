@@ -1,0 +1,139 @@
+{%extends 'app_1/base.html'%}
+{%load static%}
+
+{%block content%}
+
+  <section class="overlay">
+      <h1 class="heading">Harmony Hub – Where Passion Meets Precision</h1>
+      <h1>Discover the Best Musical Instruments</h1>
+      <p>Excellence in Sound, Crafted for You.</p>
+      <a href="{%url 'products'%}" class="shop">SHOP NOW</a>
+  </section>
+
+  <section class="why-us reveal">
+      <h2>Why Choose Us?</h2>
+      <p>At Harmony Hub, we believe every musician deserves an instrument that enhances their talent, not limit it. That’s why we offer only the finest quality gear, carefully curated for musicians of all skill levels. With expert guidance, reliable support, and a commitment to excellence, we ensure your music always hits the right note.</p>
+      <ul>
+        <li><strong>Exceptional Quality:</strong> We offer only well-crafted, performance-ready instruments that meet high standards.</li>
+        <li><strong>Curated Selection:</strong> Handpicked gear tailored to suit beginners, professionals, and everyone in between.</li>
+        <li><strong>Value for Money:</strong> Competitive pricing without compromising on quality or reliability.</li>
+        <li><strong>Reliable Support:</strong> Dedicated assistance to help you make the right choice—before and after your purchase.</li>
+        <li><strong>Authentic Craftsmanship:</strong> We partner with local instrument makers who pour generations of skill and tradition into every piece.</li>
+        <li><strong>Cultural Legacy:</strong> From sitars to mridangams, each instrument is a celebration of India’s diverse musical heritage.</li>
+        <li><strong>Support Local:</strong> Your purchase directly helps sustain small businesses and keeps indigenous art forms alive.</li>
+        <li><strong>Top-Notch Quality:</strong> We ensure every product, whether modern or traditional, meets high standards of sound and durability.</li>
+    </ul>
+    
+      <section class="main-wrapper reveal">
+        <h1 class="main-heading">Testimonials</h1>
+        <section class="category-wrapper">
+           
+          <section class="test-section">
+            <div class="test-grid">
+              <div class="test-card">
+                <h1>"I bought a guitar here, and it's like magic—playing feels like second nature now!"</h1>
+                <h5>- Alex G., Guitar Enthusiast</h5>
+              </div>
+              <div class="test-card">
+                <h1>"The drum kit I bought completely transformed my playing. Never knew I could sound this good!"</h1>
+                <h5>- Samira J., Drummer</h5>
+              </div>
+              <div class="test-card">
+                <h1>"From acoustic to electric, their selection is top-tier. I'm never going anywhere else."</h1>
+                <h5>- Ravi S., Guitarist</h5>
+              </div>
+            </div>
+          </section>
+          <section class="test-section">
+            <div class="test-grid">
+              <div class="test-card">
+                <h1>"Best customer service I’ve ever experienced. They helped me pick the perfect keyboard!"</h1>
+                <h5>- Priya M., Pianist</h5>
+              </div>
+              <div class="test-card">
+                <h1>"I thought I knew what I wanted, but their expert advice made me pick the right instrument!"</h1>
+                <h5>- Arun P., Music Producer</h5>
+              </div>
+              <div class="test-card">
+                <h1>"The quality of the products is insane. Worth every penny—my sound has never been this crisp!"</h1>
+                <h5>- Nisha K., Bassist</h5>
+              </div>
+            </div>
+          </section>
+          
+
+          </section>
+        </section>
+  </section>
+
+  <section class="quick-links">
+    <h1 class="-heading">Shop by Category</h1>
+    <section class="quick-links-wrapper">
+      
+      <div class="quick-links-grid">
+        {% for category, image_url in category_images.items %}
+          <div class="quick-link-card">
+            
+            <h3 class="quick-link-heading">{{ category }}s</h3>
+            <img src="{% static image_url %}" alt="{{ category }}">
+            <a href="/products/?category={{ category|lower }}" class="btn quick-link-btn">Shop Now</a>
+          </div>
+        {% endfor %}
+      </div>
+    </section>
+  </section>
+  
+  
+            
+            
+        
+ 
+
+    
+
+  <section class="main-wrapper reveal">
+      <h1 class="main-heading">Check out some of our Latest Arrivals!</h1>
+      <section class="category-wrapper">
+          
+          {% for category, items in categories.items %}
+            <section class="category-section">
+              <h3 class="category-sec-head">{{ category }}s</h3>
+        
+              <div class="products-grid">
+                {% for product in items %}
+                  <div class="product-card">
+                    
+                    <img src="{% static product.image_url %}" alt="{{ product.name }}">
+                    <h3>{{ product.name }}</h3>
+                    <p class="price">₹{{ product.price }}</p>
+                    
+                    <a href="{%url 'product_detail' product.id%}" class="btn viewprod">View Product</a>
+                  </div>
+                {% endfor %}
+              </div>
+            </section>
+          {% endfor %}
+        </section>
+        
+  </section>
+ 
+    
+
+    
+    
+    
+
+
+
+{%endblock%}
+    
+   
+    
+
+
+
+
+
+
+
+

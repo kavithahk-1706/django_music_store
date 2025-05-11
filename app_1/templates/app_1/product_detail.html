@@ -1,0 +1,106 @@
+{% extends 'app_1/base.html' %}
+{% load static %}
+{% block content %}
+<div class="productpage-wrapper">
+    <div class="productpage-container">
+        <div class="productpage-image">
+            <img src="{% static product.image_url %}" alt="{{ product.name }}">           
+        </div>
+        <div class="productpage-info">    
+            <h1 class="productpage-title">{{ product.name }}</h1>
+            <p class="productpage-category">{{ product.category }}</p>
+            <p class="productpage-price">₹{{ product.price }}</p>
+            <p class="productpage-description">{{ product.description }}</p>
+            <p class="productpage-stock {% if product.stock < 5 %}productpage-stock-low{% endif %}">
+                {% if product.stock > 0 %}
+                    {{ product.stock }} in stock
+                {% else %}
+                    Out of stock
+                {% endif %}
+            </p>
+            {% if product.stock > 0 %}
+            <div class="productpage-cart">
+                 <form action="{% url 'add_to_cart' product.id %}" method="POST">
+                        {% csrf_token %}
+                        <label for="qty">Quantity:</label>
+                        <input type="number" name="qty" min="1" max="{{ product.stock }}" value="1">
+                        <button type="submit" class="productpage-btn btn-div" href="{% url 'add_to_cart' product.id %}">Add to Cart</button>
+                    </form>
+                    <form action="{% url 'add_to_wishlist' product.id %}" method="POST">
+                        {% csrf_token %}
+                        <button type="submit" class="productpage-btn btn-div down">
+                            Add to Wishlist
+                        </button>
+                    </form>
+                    <form id="buy-now-form" action="{% url 'checkout' %}" method="GET">
+                        <input type="hidden" name="product_id" value="{{ product.id }}">
+                        <input type="hidden" name="qty" id="buy-now-qty" value="1">
+                        <button type="submit" class="productpage-btn btn-div down">Buy Now</button>
+                    </form>
+                    <a class="productpage-btn btn-div down" href="{%url 'products'%}">Continue Browsing</a>   
+            </div>
+            {% else %}
+                <button class="productpage-btn disabled" disabled>Out of Stock</button>
+            {% endif %}
+        </div>
+    </div>
+    <div class="productpage-reviews">
+        <h2>Customer Reviews</h2>
+        <div class="review-list">
+            {% if reviews %}
+                {% for review in reviews %}
+                    <div class="review-item">
+                        <strong>{{ review.user.username }}</strong> - {{ review.rating }}★
+                        <p>{{ review.comment }}</p>
+                        <small>{{ review.created_at|date:"M d, Y" }}</small>
+                    </div>
+                {% endfor %}
+            {% else %}
+                <p>No reviews yet.</p>
+            {% endif %}
+        </div>
+        {% if user.is_authenticated %}
+        <form method="POST" action="{% url 'submit_review' product.id %}" class="review-form">
+            {% csrf_token %}
+            <label for="rating">Rating:</label>
+            <select name="rating" class="review-select" required>
+                {% for i in "54321" %}
+                    <option value="{{ i }}">{{ i }}★</option>
+                {% endfor %}
+            </select>
+            <br>
+            <label for="comment">Comment:</label><br>
+            <textarea name="comment" rows="3" class="review-textarea" required></textarea><br>
+            <button type="submit" class="cart-checkout-btn">Submit Review</button>
+        </form>
+        {% else %}
+        <p class="contact-description"><b><a href="{% url 'login' %}">Login</a></b> to write a review.</p>
+        {% endif %}   
+    </div>
+    <section class="recommendations">
+        <h1 class="section-heading">You May Also Like</h1>
+        <div class="recommendation-wrapper">
+          {% for product in recommendations %}
+            <div class="recommendation-card">
+              <img src="{%static product.image_url%}" alt="{{ product.name }}">
+              <div class="recommendation-info">
+                <h3>{{ product.name }}</h3>
+                <p>₹{{ product.price }}</p>
+                <a href="{% url 'product_detail' product.id %}" class="btn view-btn">View</a>
+              </div>
+            </div>
+          {% endfor %}
+        </div>
+      </section>     
+</div>
+<script>
+    const qtyInput = document.querySelector('input[name="qty"]');
+    const buyNowForm = document.getElementById('buy-now-form');
+    const buyNowQty = document.getElementById('buy-now-qty');
+
+    buyNowForm.addEventListener('submit', function (e) {
+        buyNowQty.value = qtyInput.value;
+    });
+</script>
+
+{% endblock %}

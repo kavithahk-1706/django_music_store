@@ -1,0 +1,52 @@
+{% extends 'app_1/base.html' %}
+{% load static %}
+
+{% block content %}
+{% if messages %}
+            <div class="message-container">
+        {% for message in messages %}
+            <div class="message {{ message.tags }}">{{ message }}</div>
+        {% endfor %}
+            </div>
+        {% endif %}
+
+<div class="contact-container">
+    <h2 class="contact-heading">Contact Us</h2>
+    <p class="contact-description">
+        Have a question, suggestion, or just something on your mind? We’d love to hear from you. 
+        Fill out the form below and we’ll get back to you as soon as we can. Whether it’s feedback, support, or a random thought—you’re welcome to reach out.
+    </p>
+
+    <div class="contact-form-group">
+        <label class="contact-label">Name</label>
+        <input type="text" class="contact-input" value="{{ user.first_name }} {{ user.last_name }}" readonly>
+    </div>
+    
+    <div class="contact-form-group">
+        <label class="contact-label">Email</label>
+        <input type="email" class="contact-input" value="{{ user.email }}" readonly>
+    </div>
+    
+
+    <form class="contact-form" method="post" action="{% url 'contact' %}">
+        {% csrf_token %}
+        
+        <div class="contact-form-group">
+            <label for="{{ form.subject.id_for_label }}" class="contact-label">Subject</label>
+            {{ form.subject }}
+        </div>
+    
+        <div class="contact-form-group">
+            <label for="{{ form.message.id_for_label }}" class="contact-label">Message</label>
+            {{ form.message }}
+        </div>
+    
+        <button type="submit" class="contact-btn">Send Message</button>
+    </form>
+    <div class="contact-description">
+        <h4>Or, reach out to us directly at:</h4>
+        <p>Email: <a href="mailto:harmonyhub689@gmail.com">harmonyhub689@gmail.com</a></p>
+        <p>Phone: <a href="tel:+917674936510">+91 7674936510</a></p>
+    </div>
+</div>
+{% endblock %}

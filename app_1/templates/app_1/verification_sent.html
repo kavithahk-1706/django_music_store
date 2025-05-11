@@ -1,0 +1,39 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Email Verification</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{% static 'reg_styles.css' %}">
+</head>
+<body>
+{% if messages %}
+            <div class="message-container">
+        {% for message in messages %}
+            <div class="message {{ message.tags }}">{{ message }}</div>
+        {% endfor %}
+            </div>
+  {% endif %}
+
+  <div class="register-container">
+    <h2>Email Verification</h2>
+
+    <div class="message-container">
+      <div class="message success">
+        <p>Thank you for registering! A verification email has been sent to your email address.</p>
+        <p>Please check your inbox (and spam folder, just in case) to activate your account.</p>
+        <p>If you didn’t receive the email, you can <a href="{% url 'resend_verification' %}" class="login-link">request a new one here</a>.</p>
+        <p>If you already received the email, please follow the instructions to verify your account.</p>
+      </div>
+
+      <div class="login-link">
+        <a href="{% url 'login' %}" class="btn">Go to Login</a>
+      </div>
+    </div>
+    
+  </div>
+
+</body>
+</html>
