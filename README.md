@@ -8,24 +8,6 @@ Features
 Responsive design is not implemented yet — the UI currently works best on desktop. Mobile support will be added in future updates.
 
 
-
-Project Structure
-MyProject/
-├── app_1/
-│   ├── migrations/
-│   ├── templates/
-│   │   ├── register.html
-│   │   ├── verify_email.html
-│   └── models.py
-├── static/
-├── database/
-│   └── your_database_dump.sql  
-├── manage.py
-├── settings.py
-└── README.md
-
-
-
 Setup Instructions
 1. Clone the Repository
 Download or clone the project repository to your local machine:
