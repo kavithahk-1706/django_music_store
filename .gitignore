@@ -8,12 +8,7 @@ __pycache__/
 # Ignore environment folder and its contents
 /env/
 
-# Ignore SQL files
-*.sql
-*.mysql
-db/
 
 # Ignore log, pot, and db files
 *.log
 *.pot
-*.db
