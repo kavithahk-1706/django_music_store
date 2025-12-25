@@ -14,6 +14,7 @@ import ssl
 ssl._create_default_https_context=ssl._create_unverified_context
 
 from decouple import config
+import dj_database_url
 from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -87,27 +88,9 @@ WSGI_APPLICATION = 'harmony_hub.wsgi.application'
 
 
 DATABASES = {
-    'default': {
-
-        #'ENGINE': 'django.db.backends.mysql',
-        #'NAME': 'harmony_hub',
-        #'USER': 'root',
-        #'PASSWORD': config('SQL_PASSWORD'),
-        #'HOST': 'localhost',
-        #'PORT': '3306',
-        #'OPTIONS': {
-            #'charset': 'utf8mb4',
-        #},
-
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': config('DB_NAME'),
-        'USER': config('DB_USER'),
-        'PASSWORD': config('DB_PASSWORD'),
-        'HOST': config('DB_HOST'),
-        'PORT': config('DB_PORT', default='5432'),
-
-
-    }
+    'default': dj_database_url.config(
+        default=config('DATABASE_URL')
+    )
 }
 
 
