@@ -446,6 +446,8 @@ logger = logging.getLogger(__name__)
 
 
 
+
+
 def contact_view(request):
     if request.method == 'POST':
         if not(request.user.is_authenticated):
@@ -466,14 +468,18 @@ def contact_view(request):
             user_email = request.user.email
             full_message = f"Query from {user_name} ({user_email}):\n\n{message}"
 
+            logger.error(f"About to send email to {to_email}")
+            
             try:
                 send_mail(subject, full_message, from_email, to_email, fail_silently=False)
+                logger.error("Email sent successfully!")
                 messages.success(request, "Thanks for reaching out to us! We'll get back to you as soon as we can.")
                 return redirect('contact')
-            except (SMTPException, socket.gaierror, socket.timeout) as e:
-                print(f"SMTP error occurred: {e}")  # Outputs the error to your terminal
+            except Exception as e:
+                logger.error(f"Email error: {type(e).__name__}: {str(e)}")
                 messages.error(request, "Oops! Something went wrong while sending your query.")
         else:
+            logger.error(f"Form errors: {form.errors}")
             messages.error(request, 'Oops! Something went wrong.')
     else:
         form = QueryForm()
