@@ -1,0 +1,1827 @@
+[
+{
+  "model": "app_1.products",
+  "pk": 458,
+  "fields": {
+    "name": "Akai MPK Mini MK3",
+    "category": "MIDI Keyboard",
+    "price": "14500.00",
+    "image_url": "products/mk5.jpeg",
+    "description": "Compact, expressive, and great for producers on the move.",
+    "stock": 21
+  }
+},
+{
+  "model": "app_1.products",
+  "pk": 459,
+  "fields": {
+    "name": "AKG C214",
+    "category": "Condenser Microphone",
+    "price": "31000.00",
+    "image_url": "products/cm4.jpeg",
+    "description": "Detailed warm sound ideal for vocals and acoustic instruments.",
+    "stock": 20
+  }
+},
+{
+  "model": "app_1.products",
+  "pk": 460,
+  "fields": {
+    "name": "Alesis V49",
+    "category": "MIDI Keyboard",
+    "price": "16500.00",
+    "image_url": "products/mk4.jpeg",
+    "description": "A full-sized MIDI keyboard controller with pads and knobs.",
+    "stock": 11
+  }
+},
+{
+  "model": "app_1.products",
+  "pk": 461,
+  "fields": {
+    "name": "Arturia MatrixBrute",
+    "category": "Analog Synthesizer",
+    "price": "155000.00",
+    "image_url": "products/as5.jpeg",
+    "description": "A beastly analog synth with massive patching potential.",
+    "stock": 8
+  }
+},
+{
+  "model": "app_1.products",
+  "pk": 462,
+  "fields": {
+    "name": "Arturia MiniLab 3",
+    "category": "MIDI Keyboard",
+    "price": "12500.00",
+    "image_url": "products/mk2.jpeg",
+    "description": "An expressive MIDI controller with great DAW integration.",
+    "stock": 22
+  }
+},
+{
+  "model": "app_1.products",
+  "pk": 463,
+  "fields": {
+    "name": "Audio-Technica AT2020",
+    "category": "Condenser Microphone",
+    "price": "9500.00",
+    "image_url": "products/cm1.jpg",
+    "description": "A sensitive microphone ideal for vocals and instruments.",
+    "stock": 31
+  }
+},
+{
+  "model": "app_1.products",
+  "pk": 464,
+  "fields": {
+    "name": "Behringer Neutron",
+    "category": "Analog Synthesizer",
+    "price": "32000.00",
+    "image_url": "products/as2.jpeg",
+    "description": "A classic analog synth with fat tones and hands-on control.",
+    "stock": 20
+  }
+},
+{
+  "model": "app_1.products",
+  "pk": 465,
+  "fields": {
+    "name": "Bharat Musicals Pro Concert Sitar",
+    "category": "Sitar",
+    "price": "24000.00",
+    "image_url": "products/st6.jpeg",
+    "description": "Concert-grade instrument with seasoned toomba and khunti.",
+    "stock": 9
+  }
+},
+{
+  "model": "app_1.products",
+  "pk": 466,
+  "fields": {
+    "name": "Bhargava Tabla Studio Set",
+    "category": "Tabla",
+    "price": "13200.00",
+    "image_url": "products/tb5.jpeg",
+    "description": "Premium tabla with heavy copper bayan and clean dayan.",
+    "stock": 14
+  }
+},
+{
+  "model": "app_1.products",
+  "pk": 467,
+  "fields": {
+    "name": "Blackstar ID:Core 10",
+    "category": "Guitar Amp",
+    "price": "8500.00",
+    "image_url": "products/ga4.jpeg",
+    "description": "Affordable stereo combo amp with built-in effects.",
+    "stock": 19
+  }
+},
+{
+  "model": "app_1.products",
+  "pk": 468,
+  "fields": {
+    "name": "Blue Yeti Pro",
+    "category": "Condenser Microphone",
+    "price": "24000.00",
+    "image_url": "products/cm5.jpeg",
+    "description": "USB/XLR hybrid mic with high-resolution recording quality.",
+    "stock": 18
+  }
+},
+{
+  "model": "app_1.products",
+  "pk": 469,
+  "fields": {
+    "name": "Boss RC-1",
+    "category": "Loop Station",
+    "price": "11000.00",
+    "image_url": "products/ls1.jpeg",
+    "description": "A simple yet powerful looping pedal for performance.",
+    "stock": 12
+  }
+},
+{
+  "model": "app_1.products",
+  "pk": 470,
+  "fields": {
+    "name": "Bugera V5 Infinium",
+    "category": "Guitar Amp",
+    "price": "15500.00",
+    "image_url": "products/ga5.jpeg",
+    "description": "Tube-driven amp with vintage warmth in a compact frame.",
+    "stock": 14
+  }
+},
+{
+  "model": "app_1.products",
+  "pk": 471,
+  "fields": {
+    "name": "Carlsbro CSD130",
+    "category": "Electronic Drum Kit",
+    "price": "29000.00",
+    "image_url": "products/eds5.jpeg",
+    "description": "Lightweight and portable kit ideal for beginners.",
+    "stock": 27
+  }
+},
+{
+  "model": "app_1.products",
+  "pk": 472,
+  "fields": {
+    "name": "Casio CDP-S150",
+    "category": "Digital Piano",
+    "price": "32000.00",
+    "image_url": "products/dp2.jpeg",
+    "description": "A versatile digital piano with realistic touch and tone.",
+    "stock": 25
+  }
+},
+{
+  "model": "app_1.products",
+  "pk": 473,
+  "fields": {
+    "name": "Cecilio CVN-500 Violin Set",
+    "category": "Violin",
+    "price": "14500.00",
+    "image_url": "products/v6.jpeg",
+    "description": "Balanced tone and great for intermediate players.",
+    "stock": 25
+  }
+},
+{
+  "model": "app_1.products",
+  "pk": 474,
+  "fields": {
+    "name": "Chennai Mridangam Student Model",
+    "category": "Mridangam",
+    "price": "11500.00",
+    "image_url": "products/mdg3.jpeg",
+    "description": "Lightweight and tuned for easy practice.",
+    "stock": 16
+  }
+},
+{
+  "model": "app_1.products",
+  "pk": 475,
+  "fields": {
+    "name": "Cort X100",
+    "category": "Electric Guitar",
+    "price": "18000.00",
+    "image_url": "products/eg7.jpeg",
+    "description": "High-speed neck and aggressive pickups for metal and shred.",
+    "stock": 18
+  }
+},
+{
+  "model": "app_1.products",
+  "pk": 476,
+  "fields": {
+    "name": "Cremona SV-130 Premier",
+    "category": "Violin",
+    "price": "13500.00",
+    "image_url": "products/v4.jpeg",
+    "description": "Complete kit with bow and case  great for learners.",
+    "stock": 12
+  }
+},
+{
+  "model": "app_1.products",
+  "pk": 477,
+  "fields": {
+    "name": "Dayan & Bayan Deluxe Tabla",
+    "category": "Tabla",
+    "price": "11800.00",
+    "image_url": "products/tb3.jpeg",
+    "description": "A trusted name in tabla craftsmanship with great sustain.",
+    "stock": 18
+  }
+},
+{
+  "model": "app_1.products",
+  "pk": 478,
+  "fields": {
+    "name": "Dev Bansuri Transverse C Sharp",
+    "category": "Flute",
+    "price": "1800.00",
+    "image_url": "products/ft5.webp",
+    "description": "Entry-level bansuri with easy fingering and sound.",
+    "stock": 11
+  }
+},
+{
+  "model": "app_1.products",
+  "pk": 479,
+  "fields": {
+    "name": "Donner DEP-20",
+    "category": "Digital Piano",
+    "price": "29500.00",
+    "image_url": "products/dp6.jpeg",
+    "description": "A budget digital piano with impressive sound variety.",
+    "stock": 25
+  }
+},
+{
+  "model": "app_1.products",
+  "pk": 480,
+  "fields": {
+    "name": "DW Collector Series",
+    "category": "Acoustic Drum Kit",
+    "price": "58000.00",
+    "image_url": "products/ads3.jpeg",
+    "description": "A premium acoustic drum kit with high-quality components for studio and stage.",
+    "stock": 15
+  }
+},
+{
+  "model": "app_1.products",
+  "pk": 481,
+  "fields": {
+    "name": "Elektron Analog Four",
+    "category": "Analog Synthesizer",
+    "price": "125000.00",
+    "image_url": "products/as6.jpeg",
+    "description": "Powerful analog architecture with sequencer-driven sound design.",
+    "stock": 11
+  }
+},
+{
+  "model": "app_1.products",
+  "pk": 482,
+  "fields": {
+    "name": "ESP LTD EC-10",
+    "category": "Electric Guitar",
+    "price": "21000.00",
+    "image_url": "products/eg5.jpeg",
+    "description": "Entry-level rock machine with aggressive tone.",
+    "stock": 24
+  }
+},
+{
+  "model": "app_1.products",
+  "pk": 483,
+  "fields": {
+    "name": "Fender CD-60S #788",
+    "category": "Acoustic Guitar",
+    "price": "7200.00",
+    "image_url": "products/ag6.jpeg",
+    "description": "Perfect for beginners and pros alike with its smooth action.",
+    "stock": 23
+  }
+},
+{
+  "model": "app_1.products",
+  "pk": 484,
+  "fields": {
+    "name": "Fender FA-125",
+    "category": "Acoustic Guitar",
+    "price": "7500.00",
+    "image_url": "products/ag3.jpeg",
+    "description": "A beautifully crafted acoustic guitar with warm rich tones.",
+    "stock": 18
+  }
+},
+{
+  "model": "app_1.products",
+  "pk": 485,
+  "fields": {
+    "name": "Fender Mustang LT25",
+    "category": "Guitar Amp",
+    "price": "11000.00",
+    "image_url": "products/ga2.jpeg",
+    "description": "A powerful amp for practice or small gigs.",
+    "stock": 20
+  }
+},
+{
+  "model": "app_1.products",
+  "pk": 486,
+  "fields": {
+    "name": "Fender Player Stratocaster",
+    "category": "Electric Guitar",
+    "price": "60000.00",
+    "image_url": "products/eg2.webp",
+    "description": "A sleek electric guitar perfect for rock and metal tones.",
+    "stock": 18
+  }
+},
+{
+  "model": "app_1.products",
+  "pk": 487,
+  "fields": {
+    "name": "Fiddlerman Artist Violin",
+    "category": "Violin",
+    "price": "17500.00",
+    "image_url": "products/v5.jpeg",
+    "description": "Solid construction and ebony fittings for clean tone.",
+    "stock": 20
+  }
+},
+{
+  "model": "app_1.products",
+  "pk": 488,
+  "fields": {
+    "name": "Focusrite Scarlett 2i2",
+    "category": "Audio Interface",
+    "price": "21000.00",
+    "image_url": "products/ai1.jpeg",
+    "description": "A compact and reliable audio interface for all setups.",
+    "stock": 24
+  }
+},
+{
+  "model": "app_1.products",
+  "pk": 489,
+  "fields": {
+    "name": "Gibson Les Paul Studio",
+    "category": "Electric Guitar",
+    "price": "85000.00",
+    "image_url": "products/eg4.jpeg",
+    "description": "A sleek electric guitar perfect for rock and metal tones.",
+    "stock": 12
+  }
+},
+{
+  "model": "app_1.products",
+  "pk": 490,
+  "fields": {
+    "name": "Gretsch Catalina #823",
+    "category": "Acoustic Drum Kit",
+    "price": "35000.00",
+    "image_url": "products/ads6.jpeg",
+    "description": "This kit combines retro charm with modern playability and warm tones.",
+    "stock": 19
+  }
+},
+{
+  "model": "app_1.products",
+  "pk": 491,
+  "fields": {
+    "name": "Guild D-240E #613",
+    "category": "Acoustic Guitar",
+    "price": "8800.00",
+    "image_url": "products/ag5.jpeg",
+    "description": "A solid performer with rich lows and crystal-clear highs.",
+    "stock": 21
+  }
+},
+{
+  "model": "app_1.products",
+  "pk": 492,
+  "fields": {
+    "name": "Hamsapriya Wooden Veena",
+    "category": "Veena",
+    "price": "22500.00",
+    "image_url": "products/vn5.jpeg",
+    "description": "Handcrafted teakwood body and intricate detailing.",
+    "stock": 18
+  }
+},
+{
+  "model": "app_1.products",
+  "pk": 493,
+  "fields": {
+    "name": "Hari Prasad Signature Bansuri",
+    "category": "Flute",
+    "price": "3500.00",
+    "image_url": "products/ft1.jpeg",
+    "description": "Premium bamboo flute tuned to perfection in C scale.",
+    "stock": 21
+  }
+},
+{
+  "model": "app_1.products",
+  "pk": 494,
+  "fields": {
+    "name": "Haridas Sitar Student Model",
+    "category": "Sitar",
+    "price": "15000.00",
+    "image_url": "products/st5.jpeg",
+    "description": "Beginner-friendly sitar with solid tuning and resonance.",
+    "stock": 10
+  }
+},
+{
+  "model": "app_1.products",
+  "pk": 495,
+  "fields": {
+    "name": "Ibanez GRX70QA",
+    "category": "Electric Guitar",
+    "price": "13500.00",
+    "image_url": "products/eg1.jpeg",
+    "description": "A sleek electric guitar perfect for rock and metal tones.",
+    "stock": 30
+  }
+},
+{
+  "model": "app_1.products",
+  "pk": 496,
+  "fields": {
+    "name": "Ibanez SR300E",
+    "category": "Bass Guitar",
+    "price": "40000.00",
+    "image_url": "products/bg1.jpg",
+    "description": "A modern bass with deep tone and smooth playability.",
+    "stock": 14
+  }
+},
+{
+  "model": "app_1.products",
+  "pk": 497,
+  "fields": {
+    "name": "Kalalaya Deluxe Wooden Veena",
+    "category": "Veena",
+    "price": "33000.00",
+    "image_url": "products/vn4.jpeg",
+    "description": "Electric-acoustic veena perfect for stage fusion.",
+    "stock": 10
+  }
+},
+{
+  "model": "app_1.products",
+  "pk": 498,
+  "fields": {
+    "name": "Kawai ES110",
+    "category": "Digital Piano",
+    "price": "49000.00",
+    "image_url": "products/dp4.png",
+    "description": "Realistic key action and beautiful tone in a compact design.",
+    "stock": 19
+  }
+},
+{
+  "model": "app_1.products",
+  "pk": 499,
+  "fields": {
+    "name": "RPJ 24 Pro",
+    "category": "Studio Monitor",
+    "price": "29000.00",
+    "image_url": "products/sm1.jpeg",
+    "description": "Accurate and punchy monitors for mixing and production.",
+    "stock": 14
+  }
+},
+{
+  "model": "app_1.products",
+  "pk": 500,
+  "fields": {
+    "name": "Korg B2SP",
+    "category": "Digital Piano",
+    "price": "37000.00",
+    "image_url": "products/dp5.jpeg",
+    "description": "An elegant beginner-friendly digital piano with full-sized keys.",
+    "stock": 23
+  }
+},
+{
+  "model": "app_1.products",
+  "pk": 501,
+  "fields": {
+    "name": "Korg Kross 2",
+    "category": "Keyboard Synthesizer",
+    "price": "62000.00",
+    "image_url": "products/ks1.jpeg",
+    "description": "A versatile synth keyboard for stage and studio.",
+    "stock": 10
+  }
+},
+{
+  "model": "app_1.products",
+  "pk": 502,
+  "fields": {
+    "name": "Korg Monologue",
+    "category": "Analog Synthesizer",
+    "price": "27000.00",
+    "image_url": "products/as3.jpeg",
+    "description": "A classic analog synth with fat tones and hands-on control.",
+    "stock": 22
+  }
+},
+{
+  "model": "app_1.products",
+  "pk": 503,
+  "fields": {
+    "name": "KRK Rokit 5 G4",
+    "category": "Studio Monitor",
+    "price": "35000.00",
+    "image_url": "products/sm2.jpeg",
+    "description": "Accurate and punchy monitors for mixing and production.",
+    "stock": 6
+  }
+},
+{
+  "model": "app_1.products",
+  "pk": 504,
+  "fields": {
+    "name": "Ludwig Classic Maple #452",
+    "category": "Acoustic Drum Kit",
+    "price": "42000.00",
+    "image_url": "products/ads4.jpeg",
+    "description": "The Ludwig Classic Maple #452 delivers professional-grade tone and durability.",
+    "stock": 22
+  }
+},
+{
+  "model": "app_1.products",
+  "pk": 505,
+  "fields": {
+    "name": "Mapex Armory #391",
+    "category": "Acoustic Drum Kit",
+    "price": "39000.00",
+    "image_url": "products/ads5.jpeg",
+    "description": "The Mapex Armory #391 offers dynamic sound for all playing styles.",
+    "stock": 28
+  }
+},
+{
+  "model": "app_1.products",
+  "pk": 506,
+  "fields": {
+    "name": "Marshall MG15G",
+    "category": " Guitar Amp",
+    "price": "10500.00",
+    "image_url": "products/ga1.jpeg",
+    "description": "A powerful amp for practice or small gigs.",
+    "stock": 25
+  }
+},
+{
+  "model": "app_1.products",
+  "pk": 507,
+  "fields": {
+    "name": "Martin D-28 #542",
+    "category": "Acoustic Guitar",
+    "price": "9600.00",
+    "image_url": "products/ag4.jpeg",
+    "description": "Known for its balanced tone and projection,  this guitar suits any genre.",
+    "stock": 26
+  }
+},
+{
+  "model": "app_1.products",
+  "pk": 508,
+  "fields": {
+    "name": "Mohan Lal Sharma Vilayat Khan Style",
+    "category": "Sitar",
+    "price": "26000.00",
+    "image_url": "products/st4.jpeg",
+    "description": "Modeled after the legendary Vilayat Khanna's specifications.",
+    "stock": 12
+  }
+},
+{
+  "model": "app_1.products",
+  "pk": 509,
+  "fields": {
+    "name": "Monoj Kumar Sardar Tabla",
+    "category": "Tabla",
+    "price": "9500.00",
+    "image_url": "products/tb4.jpeg",
+    "description": "Great for learners and home recording use.",
+    "stock": 18
+  }
+},
+{
+  "model": "app_1.products",
+  "pk": 510,
+  "fields": {
+    "name": "Moog Subsequent 37",
+    "category": "Analog Synthesizer",
+    "price": "150000.00",
+    "image_url": "products/as1.jpeg",
+    "description": "A classic analog synth with fat tones and hands-on control.",
+    "stock": 12
+  }
+},
+{
+  "model": "app_1.products",
+  "pk": 511,
+  "fields": {
+    "name": "Mumtaz Tabla Professional Set",
+    "category": "Tabla",
+    "price": "14500.00",
+    "image_url": "products/tb2.jpeg",
+    "description": "Leather-strapped tabla set with deep resonant bass.",
+    "stock": 20
+  }
+},
+{
+  "model": "app_1.products",
+  "pk": 512,
+  "fields": {
+    "name": "Nadabrahma Mridangam Tanjore Style",
+    "category": "Mridangam",
+    "price": "14500.00",
+    "image_url": "products/mdg1.jpeg",
+    "description": "Made with seasoned jackwood and traditional valan.",
+    "stock": 12
+  }
+},
+{
+  "model": "app_1.products",
+  "pk": 513,
+  "fields": {
+    "name": "Narendra Babu Sitar Custom Carved",
+    "category": "Sitar",
+    "price": "28500.00",
+    "image_url": "products/st1.jpeg",
+    "description": "Highly decorated sitar with custom inlays and pegs.",
+    "stock": 8
+  }
+},
+{
+  "model": "app_1.products",
+  "pk": 514,
+  "fields": {
+    "name": "Nektar Impact LX61+",
+    "category": "MIDI Keyboard",
+    "price": "19500.00",
+    "image_url": "products/mk3.jpeg",
+    "description": "An expressive MIDI controller with great DAW integration.",
+    "stock": 15
+  }
+},
+{
+  "model": "app_1.products",
+  "pk": 515,
+  "fields": {
+    "name": "Neumann TLM 103",
+    "category": "Condenser Microphone",
+    "price": "75000.00",
+    "image_url": "products/cm3.jpeg",
+    "description": "A sensitive microphone ideal for vocals and instruments.",
+    "stock": 10
+  }
+},
+{
+  "model": "app_1.products",
+  "pk": 516,
+  "fields": {
+    "name": "Novation Launchkey 49",
+    "category": "MIDI Keyboard",
+    "price": "22000.00",
+    "image_url": "products/mk1.jpeg",
+    "description": "An expressive MIDI controller with great DAW integration.",
+    "stock": 18
+  }
+},
+{
+  "model": "app_1.products",
+  "pk": 517,
+  "fields": {
+    "name": "NUX DM-7X",
+    "category": "Electronic Drum Kit",
+    "price": "52000.00",
+    "image_url": "products/eds6.jpeg",
+    "description": "Mesh heads and realistic feel for practice and play.",
+    "stock": 16
+  }
+},
+{
+  "model": "app_1.products",
+  "pk": 518,
+  "fields": {
+    "name": "Orange Crush 20RT",
+    "category": "Guitar Amp",
+    "price": "13500.00",
+    "image_url": "products/ga3.jpeg",
+    "description": "A powerful amp for practice or small gigs.",
+    "stock": 15
+  }
+},
+{
+  "model": "app_1.products",
+  "pk": 519,
+  "fields": {
+    "name": "Paloma Sitar Fusion Edition",
+    "category": "Sitar",
+    "price": "19500.00",
+    "image_url": "products/st7.jpeg",
+    "description": "Designed for fusion and contemporary performance.",
+    "stock": 18
+  }
+},
+{
+  "model": "app_1.products",
+  "pk": 520,
+  "fields": {
+    "name": "Pearl Roadshow",
+    "category": "Acoustic Drum Kit",
+    "price": "23000.00",
+    "image_url": "products/ads2.jpeg",
+    "description": "A premium acoustic drum kit with high-quality components for studio and stage.",
+    "stock": 30
+  }
+},
+{
+  "model": "app_1.products",
+  "pk": 521,
+  "fields": {
+    "name": "Pudukottai Mridangam Concert Model",
+    "category": "Mridangam",
+    "price": "16500.00",
+    "image_url": "products/mdg2.jpeg",
+    "description": "Concert-quality mridangam with strong bass.",
+    "stock": 9
+  }
+},
+{
+  "model": "app_1.products",
+  "pk": 522,
+  "fields": {
+    "name": "Punam Bansuri Professional",
+    "category": "Flute",
+    "price": "4200.00",
+    "image_url": "products/ft2.jpeg",
+    "description": "Handcrafted for concert use with deep mellow tone.",
+    "stock": 23
+  }
+},
+{
+  "model": "app_1.products",
+  "pk": 523,
+  "fields": {
+    "name": "Radha Krishna Sharma Sitar Deluxe",
+    "category": "Sitar",
+    "price": "22000.00",
+    "image_url": "products/st3.jpeg",
+    "description": "Deluxe sitar with rich tone and intricate carving.",
+    "stock": 19
+  }
+},
+{
+  "model": "app_1.products",
+  "pk": 524,
+  "fields": {
+    "name": "Ravi & Sons Mridangam Fiberskin",
+    "category": "Mridangam",
+    "price": "13200.00",
+    "image_url": "products/mdg6.jpeg",
+    "description": "Durable with synthetic skin and wooden body.",
+    "stock": 14
+  }
+},
+{
+  "model": "app_1.products",
+  "pk": 525,
+  "fields": {
+    "name": "Reed & Wind Fiber Bansuri",
+    "category": "Flute",
+    "price": "2800.00",
+    "image_url": "products/ft4.jpeg",
+    "description": "Durable fiber body for all-weather outdoor performance.",
+    "stock": 20
+  }
+},
+{
+  "model": "app_1.products",
+  "pk": 526,
+  "fields": {
+    "name": "Rikhi Ram Sitar Classic",
+    "category": "Sitar",
+    "price": "18000.00",
+    "image_url": "products/st2.jpeg",
+    "description": "Handcrafted sitar with traditional jawari and fine woodwork.",
+    "stock": 8
+  }
+},
+{
+  "model": "app_1.products",
+  "pk": 527,
+  "fields": {
+    "name": "Rode NT1-A",
+    "category": "Condenser Microphone",
+    "price": "18000.00",
+    "image_url": "products/cm2.jpeg",
+    "description": "A sensitive microphone ideal for vocals and instruments.",
+    "stock": 15
+  }
+},
+{
+  "model": "app_1.products",
+  "pk": 528,
+  "fields": {
+    "name": "Roland Fantom-06",
+    "category": "Keyboard Synthesizer",
+    "price": "120000.00",
+    "image_url": "products/ks2.jpeg",
+    "description": "A versatile synth keyboard for stage and studio.",
+    "stock": 12
+  }
+},
+{
+  "model": "app_1.products",
+  "pk": 529,
+  "fields": {
+    "name": "Roland FP-30X",
+    "category": "Digital Piano",
+    "price": "65000.00",
+    "image_url": "products/dp3.jpeg",
+    "description": "A versatile digital piano with realistic touch and tone.",
+    "stock": 18
+  }
+},
+{
+  "model": "app_1.products",
+  "pk": 530,
+  "fields": {
+    "name": "Roland TD-1DMK",
+    "category": "Electronic Drum Kit",
+    "price": "55000.00",
+    "image_url": "products/eds2.jpeg",
+    "description": "A compact electronic drum kit with responsive pads.",
+    "stock": 18
+  }
+},
+{
+  "model": "app_1.products",
+  "pk": 531,
+  "fields": {
+    "name": "Samson Carbon 61",
+    "category": "MIDI Keyboard",
+    "price": "18500.00",
+    "image_url": "products/mk6.jpeg",
+    "description": "Simple and affordable keyboard with plug-and-play connectivity.",
+    "stock": 15
+  }
+},
+{
+  "model": "app_1.products",
+  "pk": 532,
+  "fields": {
+    "name": "Shree Lalita Concert Veena",
+    "category": "Veena",
+    "price": "35000.00",
+    "image_url": "products/vn1.jpeg",
+    "description": "Flamed maple back and antique finish for stage appeal.",
+    "stock": 18
+  }
+},
+{
+  "model": "app_1.products",
+  "pk": 533,
+  "fields": {
+    "name": "Shure SM27",
+    "category": "Condenser Microphone",
+    "price": "28000.00",
+    "image_url": "products/cm6.jpeg",
+    "description": "A rugged condenser mic with a natural sound profile.",
+    "stock": 16
+  }
+},
+{
+  "model": "app_1.products",
+  "pk": 534,
+  "fields": {
+    "name": "Sri Ganapathy Mridangam Deluxe",
+    "category": "Mridangam",
+    "price": "15800.00",
+    "image_url": "products/mdg4.jpeg",
+    "description": "Premium finish with excellent tonal balance.",
+    "stock": 13
+  }
+},
+{
+  "model": "app_1.products",
+  "pk": 535,
+  "fields": {
+    "name": "Stentor Student II Violin 4/4",
+    "category": "Violin",
+    "price": "8700.00",
+    "image_url": "products/v1.jpeg",
+    "description": "Tuned in C# with excellent balance and clarity.",
+    "stock": 10
+  }
+},
+{
+  "model": "app_1.products",
+  "pk": 536,
+  "fields": {
+    "name": "Stradivari Replica Violin",
+    "category": "Violin",
+    "price": "15500.00",
+    "image_url": "products/v2.jpeg",
+    "description": "Ideal for beginners with good tone and playability.",
+    "stock": 15
+  }
+},
+{
+  "model": "app_1.products",
+  "pk": 537,
+  "fields": {
+    "name": "Subhash Bansuri Concert G Scale",
+    "category": "Flute",
+    "price": "3900.00",
+    "image_url": "products/ft3.png",
+    "description": "G-scale flute with rich tonal clarity and precise tuning.",
+    "stock": 15
+  }
+},
+{
+  "model": "app_1.products",
+  "pk": 538,
+  "fields": {
+    "name": "Subramaniam Student Veena",
+    "category": "Veena",
+    "price": "19000.00",
+    "image_url": "products/vn2.jpeg",
+    "description": "Concert-grade veena with rich acoustic projection.",
+    "stock": 20
+  }
+},
+{
+  "model": "app_1.products",
+  "pk": 539,
+  "fields": {
+    "name": "Swara Vani Electric Veena",
+    "category": "Veena",
+    "price": "41000.00",
+    "image_url": "products/vn3.jpeg",
+    "description": "Built for beginners with good sustain and balance.",
+    "stock": 12
+  }
+},
+{
+  "model": "app_1.products",
+  "pk": 540,
+  "fields": {
+    "name": "Tama Imperialstar",
+    "category": "Acoustic Drum Kit",
+    "price": "37000.00",
+    "image_url": "products/ads1.jpeg",
+    "description": "A premium acoustic drum kit with high-quality components for studio and stage.",
+    "stock": 20
+  }
+},
+{
+  "model": "app_1.products",
+  "pk": 541,
+  "fields": {
+    "name": "Tanjavur Mridangam Pro Classic",
+    "category": "Mridangam",
+    "price": "17500.00",
+    "image_url": "products/mdg5.jpeg",
+    "description": "Crafted in Tanjavur with traditional methods.",
+    "stock": 10
+  }
+},
+{
+  "model": "app_1.products",
+  "pk": 542,
+  "fields": {
+    "name": "Taylor 214ce",
+    "category": "Acoustic Guitar",
+    "price": "10000.00",
+    "image_url": "products/ag2.jpg",
+    "description": "A beautifully crafted acoustic guitar with warm rich tones.",
+    "stock": 35
+  }
+},
+{
+  "model": "app_1.products",
+  "pk": 543,
+  "fields": {
+    "name": "VOX VT20X",
+    "category": "Guitar Amp",
+    "price": "13800.00",
+    "image_url": "products/ga6.jpeg",
+    "description": "Modeling amp with tube sound and modern flexibility.",
+    "stock": 20
+  }
+},
+{
+  "model": "app_1.products",
+  "pk": 544,
+  "fields": {
+    "name": "Waldorf Blofeld",
+    "category": "Analog Synthesizer",
+    "price": "42000.00",
+    "image_url": "products/as4.jpeg",
+    "description": "A rich-sounding compact synth with deep modulation options.",
+    "stock": 17
+  }
+},
+{
+  "model": "app_1.products",
+  "pk": 545,
+  "fields": {
+    "name": "Yamaha DTX402K",
+    "category": "Electronic Drum Kit",
+    "price": "37000.00",
+    "image_url": "products/eds1.jpeg",
+    "description": "A compact electronic drum kit with responsive pads.",
+    "stock": 20
+  }
+},
+{
+  "model": "app_1.products",
+  "pk": 546,
+  "fields": {
+    "name": "Yamaha FG800",
+    "category": "Acoustic Guitar",
+    "price": "2500.00",
+    "image_url": "products/ag1.jpg",
+    "description": "A beautifully crafted acoustic guitar with warm rich tones.",
+    "stock": 25
+  }
+},
+{
+  "model": "app_1.products",
+  "pk": 547,
+  "fields": {
+    "name": "Yamaha HS7",
+    "category": "Tabla",
+    "price": "12500.00",
+    "image_url": "products/tb1.jpeg",
+    "description": "Balanced tone and handmade puddis for clear sound.",
+    "stock": 7
+  }
+},
+{
+  "model": "app_1.products",
+  "pk": 548,
+  "fields": {
+    "name": "Yamaha MX49",
+    "category": "Keyboard Synthesizer",
+    "price": "58000.00",
+    "image_url": "products/ks3.jpeg",
+    "description": "A versatile synth keyboard for stage and studio.",
+    "stock": 20
+  }
+},
+{
+  "model": "app_1.products",
+  "pk": 549,
+  "fields": {
+    "name": "Yamaha P-125",
+    "category": "Digital Piano",
+    "price": "45000.00",
+    "image_url": "products/dp1.jpeg",
+    "description": "A versatile digital piano with realistic touch and tone.",
+    "stock": 20
+  }
+},
+{
+  "model": "app_1.products",
+  "pk": 550,
+  "fields": {
+    "name": "Yamaha TRBX304",
+    "category": "Bass Guitar",
+    "price": "36000.00",
+    "image_url": "products/bg2.jpg",
+    "description": "A modern bass with deep tone and smooth playability.",
+    "stock": 17
+  }
+},
+{
+  "model": "app_1.products",
+  "pk": 551,
+  "fields": {
+    "name": "Yamaha V3SKA Violin Outfit",
+    "category": "Violin",
+    "price": "21000.00",
+    "image_url": "products/v3.jpeg",
+    "description": "Inspired by the Stradivarius design for warm tone.",
+    "stock": 10
+  }
+},
+{
+  "model": "app_1.customuser",
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$9UJcJl4QYf2GGKhYasbNbz$nIfjmiwQw3735oeozAUTv8h1QmNApPjvj4hf7HXqJdk=",
+    "last_login": "2025-12-25T11:03:50.795Z",
+    "is_superuser": true,
+    "username": "Kavitha",
+    "first_name": "Kavitha",
+    "last_name": "Kidambi",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2025-04-09T18:00:32.829Z",
+    "address": "#402, D Block, Jaihind Valley, Beside DSE Manikonda, Andhra Bank Circle - 500089",
+    "phone_number": "7674936510",
+    "email": "kavithahaimakidambi0613@gmail.com",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "app_1.customuser",
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$6uu0pR0JHCjEdkIMQNFghD$e2qrGNmxBPalnLUwkesXOYg3xedqr+AbDeRRf+FMTOU=",
+    "last_login": "2025-04-09T18:39:33.542Z",
+    "is_superuser": false,
+    "username": "Savitha",
+    "first_name": "Savitha",
+    "last_name": "Kidambi",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-04-09T18:39:01.885Z",
+    "address": "Jaihind Valley, Manikonda",
+    "phone_number": "9550241171",
+    "email": "savithakidambi6@gmail.com",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "app_1.customuser",
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$u8S9PYtg6BJKfo5mNE18if$IpJ5S71InUM8cMMatGOUrS1sXT1iK0hvVo5Li7n6Kdo=",
+    "last_login": "2025-04-11T03:50:07.172Z",
+    "is_superuser": false,
+    "username": "musicalmagic",
+    "first_name": "musicalmagic",
+    "last_name": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-04-11T03:48:56.713Z",
+    "address": "doksdok",
+    "phone_number": "9483948473",
+    "email": "ilovemyfamily1701@gmail.com",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "app_1.customuser",
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$YglxrIh9FFsP75Qq08kyLs$IcSMsCbdMvsRVVXPbiangBfSvcU4rYZrHbHwStfuk9o=",
+    "last_login": "2025-04-16T17:59:48.808Z",
+    "is_superuser": false,
+    "username": "kavitha_1701",
+    "first_name": "Kavitha",
+    "last_name": "Kidambi",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-04-16T17:39:00.210Z",
+    "address": "Somewhere",
+    "phone_number": "7674936510",
+    "email": "2411cs020689@mallareddyuniversity.ac.in",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "app_1.cart",
+  "pk": 5,
+  "fields": {
+    "user": [
+      "Kavitha"
+    ],
+    "created_at": "2025-04-09T18:37:30.079Z"
+  }
+},
+{
+  "model": "app_1.cart",
+  "pk": 6,
+  "fields": {
+    "user": [
+      "musicalmagic"
+    ],
+    "created_at": "2025-04-11T03:54:38.102Z"
+  }
+},
+{
+  "model": "app_1.cart",
+  "pk": 9,
+  "fields": {
+    "user": [
+      "kavitha_1701"
+    ],
+    "created_at": "2025-04-16T17:44:20.023Z"
+  }
+},
+{
+  "model": "app_1.order",
+  "pk": 41,
+  "fields": {
+    "user": [
+      "Kavitha"
+    ],
+    "order_date": "2025-04-09T18:07:53.336Z",
+    "total_price": "22499.00",
+    "status": "Confirmed",
+    "address": "#402, D Block, Jaihind Valley, Beside DSE Manikonda, Andhra Bank Circle - 500089",
+    "payment_method": "COD",
+    "reason": "Something went wrong. Please try again."
+  }
+},
+{
+  "model": "app_1.order",
+  "pk": 42,
+  "fields": {
+    "user": [
+      "Kavitha"
+    ],
+    "order_date": "2025-04-10T20:10:34.331Z",
+    "total_price": "19000.00",
+    "status": "Processing Return",
+    "address": "#402, D Block, Jaihind Valley, Beside DSE Manikonda, Andhra Bank Circle - 500089",
+    "payment_method": "Online",
+    "reason": "Something went wrong. Please try again."
+  }
+},
+{
+  "model": "app_1.order",
+  "pk": 43,
+  "fields": {
+    "user": [
+      "Kavitha"
+    ],
+    "order_date": "2025-04-11T03:37:04.667Z",
+    "total_price": "34500.00",
+    "status": "Processing Return",
+    "address": "#402, D Block, Jaihind Valley, Beside DSE Manikonda, Andhra Bank Circle - 500089",
+    "payment_method": "Online",
+    "reason": "Something went wrong. Please try again."
+  }
+},
+{
+  "model": "app_1.order",
+  "pk": 44,
+  "fields": {
+    "user": [
+      "musicalmagic"
+    ],
+    "order_date": "2025-04-11T03:55:50.016Z",
+    "total_price": "48000.00",
+    "status": "Cancelled",
+    "address": "doksdok",
+    "payment_method": "Online",
+    "reason": "Something went wrong. Please try again."
+  }
+},
+{
+  "model": "app_1.order",
+  "pk": 45,
+  "fields": {
+    "user": [
+      "musicalmagic"
+    ],
+    "order_date": "2025-04-11T03:57:47.190Z",
+    "total_price": "24000.00",
+    "status": "Confirmed",
+    "address": "#402 d block",
+    "payment_method": "COD",
+    "reason": "Something went wrong. Please try again."
+  }
+},
+{
+  "model": "app_1.order",
+  "pk": 46,
+  "fields": {
+    "user": [
+      "Kavitha"
+    ],
+    "order_date": "2025-04-11T06:40:56.208Z",
+    "total_price": "31000.00",
+    "status": "Cancelled",
+    "address": "#402, D Block, Jaihind Valley, Beside DSE Manikonda, Andhra Bank Circle - 500089",
+    "payment_method": "Online",
+    "reason": "Something went wrong. Please try again."
+  }
+},
+{
+  "model": "app_1.order",
+  "pk": 47,
+  "fields": {
+    "user": [
+      "Kavitha"
+    ],
+    "order_date": "2025-04-11T08:28:41.865Z",
+    "total_price": "55000.00",
+    "status": "Confirmed",
+    "address": "#402, D Block, Jaihind Valley, Beside DSE Manikonda, Andhra Bank Circle - 500089",
+    "payment_method": "COD",
+    "reason": "Something went wrong. Please try again."
+  }
+},
+{
+  "model": "app_1.order",
+  "pk": 48,
+  "fields": {
+    "user": [
+      "Kavitha"
+    ],
+    "order_date": "2025-04-12T05:07:33.768Z",
+    "total_price": "29000.00",
+    "status": "Failed",
+    "address": "#402, D Block, Jaihind Valley, Beside DSE Manikonda, Andhra Bank Circle - 500089",
+    "payment_method": "Online",
+    "reason": "Something went wrong. Please try again."
+  }
+},
+{
+  "model": "app_1.order",
+  "pk": 49,
+  "fields": {
+    "user": [
+      "Kavitha"
+    ],
+    "order_date": "2025-04-12T05:09:37.448Z",
+    "total_price": "0.00",
+    "status": "Shipped",
+    "address": "#402, D Block, Jaihind Valley, Beside DSE Manikonda, Andhra Bank Circle - 500089",
+    "payment_method": "Online",
+    "reason": "Something went wrong. Please try again."
+  }
+},
+{
+  "model": "app_1.order",
+  "pk": 50,
+  "fields": {
+    "user": [
+      "Kavitha"
+    ],
+    "order_date": "2025-04-12T05:13:24.371Z",
+    "total_price": "96000.00",
+    "status": "Cancelled",
+    "address": "#402, D Block, Jaihind Valley, Beside DSE Manikonda, Andhra Bank Circle - 500089",
+    "payment_method": "Online",
+    "reason": "Something went wrong. Please try again."
+  }
+},
+{
+  "model": "app_1.order",
+  "pk": 51,
+  "fields": {
+    "user": [
+      "Kavitha"
+    ],
+    "order_date": "2025-04-12T05:23:00.480Z",
+    "total_price": "31000.00",
+    "status": "Failed",
+    "address": "#402, D Block, Jaihind Valley, Beside DSE Manikonda, Andhra Bank Circle - 500089",
+    "payment_method": "Online",
+    "reason": "Something went wrong. Please try again."
+  }
+},
+{
+  "model": "app_1.order",
+  "pk": 52,
+  "fields": {
+    "user": [
+      "Kavitha"
+    ],
+    "order_date": "2025-04-12T05:26:39.100Z",
+    "total_price": "32000.00",
+    "status": "Failed",
+    "address": "#402, D Block, Jaihind Valley, Beside DSE Manikonda, Andhra Bank Circle - 500089",
+    "payment_method": "Online",
+    "reason": "There was a server issue. Please try again."
+  }
+},
+{
+  "model": "app_1.order",
+  "pk": 53,
+  "fields": {
+    "user": [
+      "Kavitha"
+    ],
+    "order_date": "2025-04-12T05:29:36.667Z",
+    "total_price": "9500.00",
+    "status": "Failed",
+    "address": "#402, D Block, Jaihind Valley, Beside DSE Manikonda, Andhra Bank Circle - 500089",
+    "payment_method": "Online",
+    "reason": "There was a server issue. Please try again."
+  }
+},
+{
+  "model": "app_1.order",
+  "pk": 54,
+  "fields": {
+    "user": [
+      "Kavitha"
+    ],
+    "order_date": "2025-04-12T05:44:19.734Z",
+    "total_price": "32000.00",
+    "status": "Failed",
+    "address": "#402, D Block, Jaihind Valley, Beside DSE Manikonda, Andhra Bank Circle - 500089",
+    "payment_method": "Online",
+    "reason": "There was a network issue. Please check your connectivity and try again."
+  }
+},
+{
+  "model": "app_1.order",
+  "pk": 55,
+  "fields": {
+    "user": [
+      "Kavitha"
+    ],
+    "order_date": "2025-04-12T05:54:51.791Z",
+    "total_price": "16500.00",
+    "status": "Failed",
+    "address": "#402, D Block, Jaihind Valley, Beside DSE Manikonda, Andhra Bank Circle - 500089",
+    "payment_method": "Online",
+    "reason": "There was a server issue. Please try again."
+  }
+},
+{
+  "model": "app_1.order",
+  "pk": 56,
+  "fields": {
+    "user": [
+      "Kavitha"
+    ],
+    "order_date": "2025-04-12T05:56:37.651Z",
+    "total_price": "14500.00",
+    "status": "Failed",
+    "address": "#402, D Block, Jaihind Valley, Beside DSE Manikonda, Andhra Bank Circle - 500089",
+    "payment_method": "Online",
+    "reason": "The server is busy. Please try again later."
+  }
+},
+{
+  "model": "app_1.order",
+  "pk": 57,
+  "fields": {
+    "user": [
+      "Kavitha"
+    ],
+    "order_date": "2025-04-12T06:07:07.962Z",
+    "total_price": "32000.00",
+    "status": "Failed",
+    "address": "#402, D Block, Jaihind Valley, Beside DSE Manikonda, Andhra Bank Circle - 500089",
+    "payment_method": "Online",
+    "reason": "The server is busy. Please try again later."
+  }
+},
+{
+  "model": "app_1.order",
+  "pk": 58,
+  "fields": {
+    "user": [
+      "Kavitha"
+    ],
+    "order_date": "2025-04-12T06:08:12.090Z",
+    "total_price": "16500.00",
+    "status": "Failed",
+    "address": "#402, D Block, Jaihind Valley, Beside DSE Manikonda, Andhra Bank Circle - 500089",
+    "payment_method": "Online",
+    "reason": "There was a network issue. Please check your connectivity and try again."
+  }
+},
+{
+  "model": "app_1.order",
+  "pk": 59,
+  "fields": {
+    "user": [
+      "Kavitha"
+    ],
+    "order_date": "2025-04-12T06:35:29.684Z",
+    "total_price": "72000.00",
+    "status": "Failed",
+    "address": "#402, D Block, Jaihind Valley, Beside DSE Manikonda, Andhra Bank Circle - 500089",
+    "payment_method": "Online",
+    "reason": "There was a network issue. Please check your connectivity and try again."
+  }
+},
+{
+  "model": "app_1.order",
+  "pk": 60,
+  "fields": {
+    "user": [
+      "Kavitha"
+    ],
+    "order_date": "2025-04-12T07:00:26.869Z",
+    "total_price": "24000.00",
+    "status": "Failed",
+    "address": "#402, D Block, Jaihind Valley, Beside DSE Manikonda, Andhra Bank Circle - 500089",
+    "payment_method": "Online",
+    "reason": "There was a network issue. Please check your connectivity and try again."
+  }
+},
+{
+  "model": "app_1.order",
+  "pk": 61,
+  "fields": {
+    "user": [
+      "Kavitha"
+    ],
+    "order_date": "2025-04-12T07:01:25.330Z",
+    "total_price": "32000.00",
+    "status": "Cancelled",
+    "address": "#402, D Block, Jaihind Valley, Beside DSE Manikonda, Andhra Bank Circle - 500089",
+    "payment_method": "Online",
+    "reason": "Something went wrong. Please try again."
+  }
+},
+{
+  "model": "app_1.order",
+  "pk": 67,
+  "fields": {
+    "user": [
+      "kavitha_1701"
+    ],
+    "order_date": "2025-04-16T17:47:04.129Z",
+    "total_price": "9500.00",
+    "status": "Cancelled",
+    "address": "tyuihuyftygh",
+    "payment_method": "Online",
+    "reason": "Something went wrong. Please try again."
+  }
+},
+{
+  "model": "app_1.order",
+  "pk": 68,
+  "fields": {
+    "user": [
+      "kavitha_1701"
+    ],
+    "order_date": "2025-04-16T17:47:04.134Z",
+    "total_price": "9500.00",
+    "status": "Processing Return",
+    "address": "tyuihuyftygh",
+    "payment_method": "Online",
+    "reason": "Something went wrong. Please try again."
+  }
+},
+{
+  "model": "app_1.order",
+  "pk": 69,
+  "fields": {
+    "user": [
+      "kavitha_1701"
+    ],
+    "order_date": "2025-04-16T17:50:12.379Z",
+    "total_price": "80000.00",
+    "status": "Cancelled",
+    "address": "Somewhere",
+    "payment_method": "COD",
+    "reason": "Something went wrong. Please try again."
+  }
+},
+{
+  "model": "app_1.order",
+  "pk": 70,
+  "fields": {
+    "user": [
+      "Kavitha"
+    ],
+    "order_date": "2025-12-25T11:04:38.321Z",
+    "total_price": "4200.00",
+    "status": "Shipped",
+    "address": "#402, D Block, Jaihind Valley, Beside DSE Manikonda, Andhra Bank Circle - 500089",
+    "payment_method": "Online",
+    "reason": "Something went wrong. Please try again."
+  }
+},
+{
+  "model": "app_1.orderitem",
+  "pk": 59,
+  "fields": {
+    "order": 68,
+    "product": 463,
+    "quantity": 1
+  }
+},
+{
+  "model": "app_1.orderitem",
+  "pk": 60,
+  "fields": {
+    "order": 67,
+    "product": 463,
+    "quantity": 1
+  }
+},
+{
+  "model": "app_1.orderitem",
+  "pk": 61,
+  "fields": {
+    "order": 69,
+    "product": 464,
+    "quantity": 1
+  }
+},
+{
+  "model": "app_1.orderitem",
+  "pk": 62,
+  "fields": {
+    "order": 69,
+    "product": 465,
+    "quantity": 2
+  }
+},
+{
+  "model": "app_1.orderitem",
+  "pk": 63,
+  "fields": {
+    "order": 70,
+    "product": 522,
+    "quantity": 1
+  }
+},
+{
+  "model": "app_1.query",
+  "pk": 30,
+  "fields": {
+    "user": [
+      "Kavitha"
+    ],
+    "subject": "Query",
+    "message": "This is a test query",
+    "submitted_at": "2025-04-11T03:44:07.614Z"
+  }
+},
+{
+  "model": "app_1.query",
+  "pk": 31,
+  "fields": {
+    "user": [
+      "Kavitha"
+    ],
+    "subject": "ggggg",
+    "message": "ggggg",
+    "submitted_at": "2025-04-12T05:13:53.753Z"
+  }
+},
+{
+  "model": "app_1.query",
+  "pk": 33,
+  "fields": {
+    "user": [
+      "kavitha_1701"
+    ],
+    "subject": "test",
+    "message": "hiiiiiii",
+    "submitted_at": "2025-04-16T18:04:30.449Z"
+  }
+},
+{
+  "model": "app_1.query",
+  "pk": 34,
+  "fields": {
+    "user": [
+      "kavitha_1701"
+    ],
+    "subject": "test",
+    "message": "hiiiiii this is test",
+    "submitted_at": "2025-04-16T18:06:32.993Z"
+  }
+},
+{
+  "model": "app_1.query",
+  "pk": 35,
+  "fields": {
+    "user": [
+      "kavitha_1701"
+    ],
+    "subject": "test",
+    "message": "hiiiiii this is test",
+    "submitted_at": "2025-04-16T18:06:34.380Z"
+  }
+},
+{
+  "model": "app_1.query",
+  "pk": 36,
+  "fields": {
+    "user": [
+      "Kavitha"
+    ],
+    "subject": "iuhiu",
+    "message": "uhiuh",
+    "submitted_at": "2025-12-25T11:05:32.614Z"
+  }
+},
+{
+  "model": "app_1.review",
+  "pk": 7,
+  "fields": {
+    "product": 463,
+    "user": [
+      "kavitha_1701"
+    ],
+    "rating": 5,
+    "comment": "nice",
+    "created_at": "2025-04-16T17:43:27.946Z"
+  }
+},
+{
+  "model": "app_1.faq",
+  "pk": 1,
+  "fields": {
+    "question": "❓Q: How do I place an order?",
+    "answer": "A: Simply browse the products, add items to your cart, and proceed to checkout. You can choose to pay online or opt for Cash on Delivery."
+  }
+},
+{
+  "model": "app_1.faq",
+  "pk": 2,
+  "fields": {
+    "question": "❓Q: Can I return or cancel a product after ordering?",
+    "answer": "A: Yes, you can cancel orders before they are shipped. If your product is delivered, you can initiate a return request from your order history."
+  }
+},
+{
+  "model": "app_1.faq",
+  "pk": 3,
+  "fields": {
+    "question": "❓Q: What payment methods are supported?",
+    "answer": "A: We support both Cash on Delivery and online card payments. Online payments simulate success or failure based on random outcomes for demo purposes."
+  }
+},
+{
+  "model": "app_1.faq",
+  "pk": 4,
+  "fields": {
+    "question": "❓Q: I forgot my password. What should I do?",
+    "answer": "A: Click on “Forgot Password” on the login page. A reset link will be sent to your registered email address."
+  }
+},
+{
+  "model": "app_1.faq",
+  "pk": 5,
+  "fields": {
+    "question": "❓Q: Can I update my address or profile info later?",
+    "answer": "A: Absolutely. Just head to the “Settings” page after logging in to update your name, address, phone number, or password."
+  }
+},
+{
+  "model": "app_1.faq",
+  "pk": 6,
+  "fields": {
+    "question": "❓Q: What happens if my online payment fails?",
+    "answer": "A: You’ll see a message with the reason for failure and an option to retry the payment. Don’t worry — your cart will stay intact."
+  }
+},
+{
+  "model": "app_1.faq",
+  "pk": 7,
+  "fields": {
+    "question": "❓Q: How do I leave a review for a product?",
+    "answer": "A: After purchasing, visit the product page while logged in and you’ll be able to submit a rating and comment."
+  }
+},
+{
+  "model": "app_1.wishlist",
+  "pk": 1,
+  "fields": {
+    "user": [
+      "Kavitha"
+    ],
+    "created_at": "2025-04-10T15:31:53.609Z"
+  }
+},
+{
+  "model": "app_1.wishlist",
+  "pk": 2,
+  "fields": {
+    "user": [
+      "musicalmagic"
+    ],
+    "created_at": "2025-04-11T03:51:33.420Z"
+  }
+},
+{
+  "model": "app_1.wishlist",
+  "pk": 5,
+  "fields": {
+    "user": [
+      "kavitha_1701"
+    ],
+    "created_at": "2025-04-16T17:43:57.306Z"
+  }
+}
+]
