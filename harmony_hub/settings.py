@@ -13,7 +13,7 @@ https://docs.djangoproject.com/en/5.1/ref/settings/
 import ssl
 ssl._create_default_https_context=ssl._create_unverified_context
 
-
+from decouple import config
 from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -27,9 +27,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-zs7rbr$tg%6*p4reo%_w+5uh^-(#$exvpjg+zj94&kopxf(ukp'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['192.168.29.234','localhost','127.0.0.1']
+ALLOWED_HOSTS = ["*"]
 
 
 
@@ -130,7 +130,7 @@ USE_I18N = True
 
 USE_TZ = True
 
-# settings.py
+
 
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'  # prints the email to the console
 
@@ -151,11 +151,10 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 AUTH_USER_MODEL='app_1.CustomUser'
 
-LOGIN_REDIRECT_URL = 'home'  # or wherever you want to redirect after login
-LOGOUT_REDIRECT_URL = 'home'  # optional, defaults to settings.LOGIN_URL
-LOGIN_URL = 'login'  # used for @login_required
+LOGIN_REDIRECT_URL = 'home'  
+LOGOUT_REDIRECT_URL = 'home'  
+LOGIN_URL = 'login' 
 
-from decouple import config
 
 EMAIL_BACKEND = 'app_1.email_backend.CustomEmailBackend'
 EMAIL_HOST = 'smtp.gmail.com'
